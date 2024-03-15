@@ -1,0 +1,54 @@
+body {
+    background-color: black;
+    font-family: 'Montserrat';
+}
+
+
+/* #0ea5e9 
+#0b1121 */
+
+ :root {
+    --primary-color: #0061ff;
+    --secondary-color: #0f172a;
+    --tertiary-color: #252728;
+    --text-primary: white;
+    --text-secondory: rgb(209, 204, 204);
+    --primary-light: #07354a;
+}
+
+.montserrat-bold {
+    font-family: "Montserrat";
+    font-optical-sizing: auto;
+    font-weight: 900;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.bg-primary {
+    background-color: var(--primary-color);
+}
+
+.bg-primary-light {
+    background-color: var(--primary-light);
+}
+
+.bg-secondory {
+    background-color: var(--secondary-color);
+}
+
+.bg-tertiary {
+    background-color: var(--tertiary-color);
+}
+
+.text-primary {
+    color: var(--text-primary);
+}
+
+.text-secondory {
+    color: var(--text-secondory);
+}
+
+.text-main {
+    color: var(--primary-color);
+}
