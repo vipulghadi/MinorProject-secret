@@ -22,6 +22,7 @@ function App() {
      <Route path="/" element={<IntroPage/>}/>
      <Route path="/create-room" element={<CreateTest/>}/>
      <Route path="/room" element={<InterviewPage/>}/>
+     <Route path="/search" element={<SearchResult/>}/>
      </Routes>
 
      <Footer/>
