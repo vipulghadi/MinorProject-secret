@@ -3,6 +3,10 @@ body {
     font-family: 'Montserrat';
 }
 
+.hide-scroll::-webkit-scrollbar {
+    display: none;
+}
+
 
 /* #0ea5e9 
 #0b1121 */
