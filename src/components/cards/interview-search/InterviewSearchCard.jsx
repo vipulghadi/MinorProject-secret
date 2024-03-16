@@ -3,7 +3,7 @@ import React from "react";
 function InterviewSearchCard({ width = "320px" }) {
   return (
     <div
-      className={`card sm:w-10/12 w-10/12  relative bg-black mt-3 rounded-md overflow-hidden mr-3`}
+      className={`card sm:w-10/12 w-12/12  relative bg-black mt-3 rounded-md overflow-hidden mr-3`}
     >
       <div className="cover-image w-full h-[80px] bg-tertiary">efw</div>
 
