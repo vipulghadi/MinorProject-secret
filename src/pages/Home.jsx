@@ -16,7 +16,7 @@ function Home() {
     <>
       <div className="home w-full flex  justify-center items-start sm:flex-nowrap  flex-wrap bg-black mt-[100px]">
         <div className="sidebar-section  sm:w-2/12 md:w-3/12 sm:block hidden  h-screen ">
-       
+  
           <Sidebar />
         </div>
         <div className="main-section sm:w-7/12  md:w-7/12 h-auto w-full ">

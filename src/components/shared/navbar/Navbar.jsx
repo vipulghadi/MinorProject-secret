@@ -14,14 +14,15 @@ function Navbar() {
   return (
     <div className=" p-5  flex justify-between items-center h-[80px]  fixed top-0  bg-black overflow-hidden z-50 w-full  ">
       <div className="nav-left font-semibold text-[20px] text-main ">
-      <Link to={'/'}>   <img src={logo} alt="" className="w-[120px]" /></Link>
+      <Link to={'/profile'}>   <img src={logo} alt="" className="w-[120px]" /></Link>
      
       </div>
       <div className="nav-right flex space-x-5 text-primary">
       <div className="search-box-small relative sm:block w-[120px] sm:w-[180px]">
       <img src={searchIcon} alt="" className="w-[12px] h-[12px] absolute left-2 top-3" />
       <input type="text" className="outline-none rounded-md p-2 bg-tertiary w-full text-secondory text-[14px]" placeholder="     search here" onClick={()=>{redirectToSearchPage()}} /></div>
-      <img src={menuIcon} alt="" className="sm:hidden w-[35px] h-[35px]" />
+      <Link to={'/'}>      <img src={menuIcon} alt="" className="sm:hidden w-[35px] h-[35px]" /></Link>
+
       <div className="link  gap-2 sm:flex hidden">
       <Link to={"/"}>Home</Link>
         <Link to={"/profile"}>Profile</Link>
