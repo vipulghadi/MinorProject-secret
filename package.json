@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@uiw/react-textarea-code-editor": "^3.0.2",
+    "core-js": "^3.36.0",
     "flowbite-react": "^0.7.3",
     "formik": "^2.4.5",
     "react": "^18.2.0",
@@ -18,6 +19,8 @@
     "react-router-dom": "^6.22.3",
     "react-slick": "^0.30.2",
     "react-speech-recognition": "^3.10.0",
+    "react-use-clipboard": "^1.0.9",
+    "regenerator-runtime": "^0.14.1",
     "slick-carousel": "^1.8.1"
   },
   "devDependencies": {

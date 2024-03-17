@@ -8,7 +8,7 @@ import InterviewerScreen from "../components/interview-page/InterviewerScreen";
 
 // <img src="https://cdn.pixabay.com/photo/2023/08/08/13/51/ai-generated-8177420_1280.png" alt="" className="bg-cover w-full h-screen opacity-25" />
 function InterviewPage() {
-  return <div className="w-full flex justify-center items-center  mt-[100px] flex-wrap h-screen " >
+  return <div className="w-full flex justify-center items-center  flex-wrap h-screen   " >
 
  <div className="interviewer-screen  sm:w-1/2 w-full   h-screen ">
  <InterviewerScreen/>

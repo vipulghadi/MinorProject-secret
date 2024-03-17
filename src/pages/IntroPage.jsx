@@ -1,21 +1,21 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Navbar from "../components/shared/navbar/Navbar";
 import bg from "../assets/images/bg.jpg";
 import BlurEffect from "../components/authpage/BlurEffect";
 import PricingCard from "../components/cards/interview-search/PricingCard";
+import Dictaphone from "../components/Test";
 
 function IntroPage() {
   return (
-    <div className="w-full flex flex-col justify-center items-center relative ">
-    <img src="https://cdn.vectorstock.com/i/preview-1x/54/39/black-dots-texture-vector-4535439.jpg" className="absolute top-0 left-0 w-screen h-screen opacity-15 " alt="" />
-      <div className="navb w-full">
-        <Navbar />
-      </div>
+    <div className="w-full flex flex-col justify-center items-center relative mt-[80px] ">
+   
+
       <div className="hero-section w-11/12 flex flex-col justify-center items-center mt-5 h-screen   relative">
         <div className="auth-btn absolute right-0 top-0 space-x-2">
           <button className="px-3 py-1 rounded-md bg-primary text-white hover:bg-blue-400">
-            
-            Register
+            <Link to={'/room'}>         Register</Link>
+   
           </button>
           <button className="px-3 py-1 rounded-md border-[1px] text-main">
           
@@ -45,6 +45,7 @@ function IntroPage() {
  <PricingCard/>
  </div>
  </div>
+ <div className="test bg-red-300"><Dictaphone/></div>
     </div>
   );
 }
