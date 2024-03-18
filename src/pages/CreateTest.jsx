@@ -12,7 +12,7 @@ function CreateTest() {
   };
   return (
     <div className="w-full justify-center items-center flex flex-col h-screen mb-[100px] mt-[100px] ">
-      <div className="main-box sm:w-9/12 h-auto rounded-md w-11/12  bg-tertiary p-3">
+      <div className="main-box sm:w-9/12 h-auto rounded-md w-11/12  p-3">
         <h2 className="font-bold  text-primary text-[30px] p-3 text-center  mb-4flex space-x-2 justify-center items-center">
           Create An   <span className="text-main"> Interview</span> Room
         </h2>
